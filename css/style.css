@@ -66,28 +66,39 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Privacy Policy Specifics */
-.privacy-content h2 {
+/* Legal page specifics */
+.privacy-content h2,
+.legal-content h2 {
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
   color: var(--secondary-color);
   font-size: 1.25rem;
 }
-.privacy-content h3 {
+
+.privacy-content h3,
+.legal-content h3 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
-.privacy-content p, .privacy-content ul {
+
+.privacy-content p,
+.privacy-content ul,
+.legal-content p,
+.legal-content ul {
   margin-bottom: 1rem;
 }
-.privacy-content ul {
+
+.privacy-content ul,
+.legal-content ul {
   padding-left: 1.5rem;
 }
+
 .language-selector {
   margin-bottom: 1.5rem;
   text-align: right;
   font-size: 0.95rem;
 }
+
 .language-selector span {
   font-weight: bold;
   color: var(--secondary-color);
