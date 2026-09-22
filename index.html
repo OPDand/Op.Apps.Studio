@@ -16,16 +16,22 @@
     <main>
         <section class="card">
             <h2>Our Apps / Nuestras Aplicaciones</h2>
-            <div class="app-item">
-                <h3>Freslist</h3>
-                <p>A simple and efficient shopping list application to make your grocery trips easier.</p>
-                <ul>
-                    <li><a href="privacy/freslist/es.html">Política de Privacidad (Español)</a></li>
-                    <li><a href="privacy/freslist/index.html">Privacy Policy (English)</a></li>
-                    <li><a href="terms/freslist/es.html">Términos de Uso (Español)</a></li>
-                    <li><a href="terms/freslist/index.html">Terms of Use (English)</a></li>
-                </ul>
-            </div>
+            <p class="section-intro">Select an application to view its information, privacy policy, and terms of use:</p>
+            <ul class="apps-list">
+                <li class="app-list-item">
+                    <a href="apps/freslist/index.html" class="app-title-link">Freslist</a>
+                    <span class="app-separator">&mdash;</span>
+                    <span class="app-summary">A simple and efficient shopping list application to make your grocery trips easier.</span>
+                </li>
+                <!--
+                To add a new app in the future, copy and paste this block:
+                <li class="app-list-item">
+                    <a href="apps/[app-slug]/index.html" class="app-title-link">[App Name]</a>
+                    <span class="app-separator">&mdash;</span>
+                    <span class="app-summary">[Brief app description]</span>
+                </li>
+                -->
+            </ul>
         </section>
     </main>
 
